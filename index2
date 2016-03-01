@@ -8,6 +8,10 @@
 </head>
 <body>
 
+	<div class="legend">
+		<span class="number">1</span> Candidate Info
+	</div>
+
 <input type="text" name="fullName" placeholder="Your Name">
 <input type="text" name="email" placeholder="Your Email">
 

@@ -22,6 +22,24 @@ input{
 	padding: 7px;
 	background-color: #e8eeef;
 	color: #8a97a0;
-	display: block;
+	width: 80%;
+
+}
+
+.legend{
+	
+}
+
+.number{
+	background-color: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	font-size: 12px;
+	margin-right: 5px;
+	text-align: center;
+	border-radius: 15px 15px 15px 0px;
+	display: inline-block;
+	line-height: 30px;
 
 }
