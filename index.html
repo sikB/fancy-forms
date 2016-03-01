@@ -3,28 +3,61 @@
 <head>
 	<title></title>
 
-	<link rel="stylesheet" type="text/css" href="css/reset.css"></link>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div id="form-wrapper">
-	<form id="sign-up-form">
-		<div id="sign-up">
+	<form>
+		
+			<h1>Sign Up Now!<span>Sign up and tell me what you think of my site!</span></h1>
+			
+		
+
+		<div class="form-wrapper">
+			<div class="section"><span>1</span> First Name & Address</div>
+			<div class="form-wrapper">
+				<label>Your full name
+					<input type="text" name="fullName" placeholder="Your full name" value=""></input>
+					
+				</label>
+			</div>
+		</div>
+
+		<div class="form-wrapper">
+			<label>Address<input type="text" name="address1" placeholder="Address" value=""></input></label>
 			
 		</div>
 
-		<div>
-			
+		<div class="section"><span>2</span>Email & Phone</div>
+		<div class="form-wrapper">
+			<label>Email Address<input type="email" name="email" placeholder="Email" value=""></input></label>
 		</div>
 
-		<div>
-			
-		</div>
 
-		<div>
-			
-		</div>
+		<div class="form-wrapper">
+			<label>Phone Number<input type="text" name="phoneNumber" placeholder="Phone Number" value=""></input></label>
 
-		<div>
+		<div class="section"><span>3</span>Password</div>
+		<div class="form-wrapper">
+			<label>Password<input type="password" name="password" placeholder="Password" value=""></label></div>
+
+			<div class="form-wrapper">
+			<label>Password Confirmation<input type="password" name="password" placeholder="Password Confirm" value=""></label></div>
+
+		<div class="section"><span>4</span>Skills</div>
+		<div class="skills-wrapper">
+			<label>My tech skills<input type="text" name="techSkills" placeholder="Your Skills" value=""></label>
+			<label>My Age
+			<input type="number" name="age" placeholder="Your Age" value=""></label></div>
+
+		<div class="form-wrapper">
+			<input type="submit" value="Sign Me Up!">
+				<input type="checkbox" name="privacy"><span>I agree to the terms and conditions</span>
+			</div>
+
+
+		
 			
 		</div>
 
