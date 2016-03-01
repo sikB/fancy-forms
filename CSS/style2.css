@@ -12,7 +12,7 @@ body{
 	font-family: 'Spicy Rice', cursive;
 
 }
-input{
+input, textarea, select{
 	font-family: 'Spicy Rice', cursive;
 	border: none;
 	border-radius: 4px;
@@ -23,11 +23,18 @@ input{
 	background-color: #e8eeef;
 	color: #8a97a0;
 	width: 80%;
+	max-width: 100%;
+
 
 }
 
 .legend{
-	
+	margin-bottom: 10px;
+	font-size: 18px;
+
+}
+label{
+	display: block;
 }
 
 .number{
@@ -35,11 +42,21 @@ input{
 	color: #fff;
 	height: 30px;
 	width: 30px;
-	font-size: 12px;
+	font-size: 18px;
 	margin-right: 5px;
 	text-align: center;
 	border-radius: 15px 15px 15px 0px;
-	display: inline-block;
+	display: block;
 	line-height: 30px;
 
+}
+input [type=submit] {
+	display: block;
+	padding: 19px 39px;
+	color: #fff;
+	margin: 0px auto;
+	background-color: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
 }

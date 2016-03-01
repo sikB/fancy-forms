@@ -10,12 +10,41 @@
 
 	<div class="legend">
 		<span class="number">1</span> Candidate Info
+
 	</div>
 
 <input type="text" name="fullName" placeholder="Your Name">
 <input type="text" name="email" placeholder="Your Email">
+<textarea name="about" placeholder="About Yourself"></textarea>
+
+	<label>Interests:</label>
+		<select name="" multiple>
+			<optgroup label="Indoors">
+                        <option value="fishkeeping">Fishkeeping</option>
+                        <option value="reading">Reading</option>
+                        <option value="boxing">Boxing</option>
+                        <option value="debate">Debate</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="snooker">Snooker</option>
+                        <option value="other_indoor">Other</option>
+                    </optgroup>
+                    <optgroup label="Outdoors">
+                        <option value="football">Football</option>
+                        <option value="swimming">Swimming</option>
+                        <option value="fishing">Fishing</option>
+                        <option value="climbing">Climbing</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="other_outdoor">Other</option>
 
 
+	
+	
+</select>
+	<span class="number">2</span>Additional Info
+	<textarea name="about" placeholder="About your school"></textarea>
+
+<input type="submit" value="Apply">
+	
 
 </body>
 </html>
